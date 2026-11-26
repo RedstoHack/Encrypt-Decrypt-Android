@@ -1,0 +1,5 @@
+- Fixed: long encrypted text could not be decrypted (input fields were single-line; copy/paste damage such as line breaks, quotes or a lost "=" is now tolerated; clear error messages instead of "Error decrypting text").
+- Fixed: crashes with very large text (clipboard / notification / dialog limits). Big results show a preview, Copy still copies everything.
+- Fixed: text from Share / "Process text" that is not a plain String was ignored.
+- Fixed: dismissing a dialog in Share / Process text left an invisible activity.
+- Text encryption now runs in the background (no UI freeze on big texts).

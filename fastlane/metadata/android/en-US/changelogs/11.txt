@@ -1,0 +1,4 @@
+- Fixed: algorithm name in the cipher spinner was invisible (dark text on black) with the light system theme.
+- Fixed: crash when encrypting/decrypting big files (100+ MB). Files are now processed as a stream.
+- Fixed: output file can now be saved to ANY location (including the storage root) via the system "Save as" dialog.
+- Added: progress bar and Cancel button for file operations. File format is unchanged (old files still decrypt).
